@@ -5,7 +5,6 @@ module.exports = {
     '@feathers/commons',
     '@feathers/errors',
     '@feathers/feathers',
-    '@feathers/rest-client',
     'debug'
   ]
 }
