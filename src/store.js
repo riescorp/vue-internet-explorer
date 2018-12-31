@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-// import feathersVuex from 'feathers-vuex'
+import feathersVuex from 'feathers-vuex'
 import feathers from '@feathersjs/feathers'
+import socketio from '@feathersjs/socketio-client'
+import rest from '@feathersjs/rest-client'
+import auth from '@feathersjs/authentication-client'
+import io from 'socket.io-client'
 
 // const { FeathersVuex } = feathersVuex(feathers(), { idField: '_id' })
 
